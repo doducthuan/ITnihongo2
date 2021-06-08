@@ -1,0 +1,51 @@
+.game1__step1 {
+    height: 80vh;
+}
+
+.game1__title {
+    display: flex;
+    height: 50px;
+    background-color: #C4C4C4;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.game1__instruction {
+    display: flex;
+    height: 100%;
+    flex: 1;
+}
+
+.game1__cat-img {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+}
+
+.game1__instruction-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.game1__instruction-body {
+    background-color: #fddfc5;
+    margin: 0 100px;
+    margin-top: 50px;
+    font-size: 20px;
+    border-radius: 20px;
+    padding: 50px;
+    flex: 1;
+}
+
+.game1__start-img {
+    align-self: flex-end;
+    transform: translateY(-200px);
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+@media (min-width: 1024px) {
+    .game1__instruction-body {
+        min-height: 600px;
+    }
+}
